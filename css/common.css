@@ -11,7 +11,11 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  outline: none;
 }
+
+
+
 
 .gallery {
   display: flex;
@@ -34,15 +38,14 @@ input{
   padding-right: 140px;
   padding-bottom: 8px;
   padding-left: 14px;
-  border-color: #808080;
-  border-radius: 4px;
+  border: 4px solid #808080;
   border-width: 1px;
 }
 
 input::placeholder {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   letter-spacing: 4%;
   color: #2E2F42;
@@ -60,4 +63,54 @@ h1 {
   font-size: 24px;
   line-height: 32px;
   color: #2E2F42;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 360px;
+  height: 152px;
+}
+
+.login-form label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2E2F42;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  border-radius: 4px;
+  border-color: #808080;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+
+.login-form input:hover {
+  border-color: #000000;
+  background-color:  #FFFFFF;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #808080;;
+}
+
+
+.login-form button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  color: #FFFFFF;
+  background-color: #4E75FF;
+  border-radius: 8px;
+  border:#4E75FF;
+}
+
+.login-form button:hover {
+  background-color: #6C8CFF;
+  border: #6C8CFF;
 }
