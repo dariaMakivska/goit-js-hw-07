@@ -114,3 +114,24 @@ form {
   background-color: #6C8CFF;
   border: #6C8CFF;
 }
+
+.widget{
+  flex-direction: column;
+  align-items: center;
+}
+
+.widget p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #2E2F42;
+  margin-bottom: 16px;
+}
+
+.widget button{
+  color: #FFFFFF;
+  width: 148px;
+  height: 40px;
+  background-color: #4E75FF;
+  border:#4E75FF;
+  border-radius: 8px;
+}
